@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#container {
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+#drawing {
+  display: flex;
+  flex-direction: column;
+}
+#top {
+  width: 50vh;
+  height: 50vh;
+  /* background-color: blue; */
+}
+#bottom {
+  width: 50vh;
+  height: 50vh;
+  /* background-color: red; */
+}
